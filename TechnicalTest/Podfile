@@ -34,7 +34,7 @@ end
 
 target 'TechnicalTestCore' do
   inherit! :search_paths
-  project '/Users/leonardborrego/Documents/TechnicalTest/TechnicalTestCore/TechnicalTestCore.xcodeproj'
+  project 'TechnicalTestCore/TechnicalTestCore.xcodeproj'
   allPods
   
   target 'TechnicalTestCoreTests' do
@@ -46,7 +46,7 @@ end
 
 target 'TechnicalTestData' do
   inherit! :search_paths
-  project '/Users/leonardborrego/Documents/TechnicalTest/TechnicalTestData/TechnicalTestData.xcodeproj'
+  project 'TechnicalTestData/TechnicalTestData.xcodeproj'
   allPods
   
   target 'TechnicalTestDataTests' do

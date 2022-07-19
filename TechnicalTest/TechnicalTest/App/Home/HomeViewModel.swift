@@ -26,9 +26,9 @@ extension HomeViewModel: HomeViewModelType {
             .receive(on: RunLoop.main)
             .sink { completion in
                 switch completion {
-                case .failure(_):
+                case .failure(let error):
                     //TODO: Validar cuando es fallido
-                    Logger(subsystem: "No hay resultados", category: "Busqueda")
+                    print(error)
                     break
                 case .finished:
                     //TODO: Validar el finished

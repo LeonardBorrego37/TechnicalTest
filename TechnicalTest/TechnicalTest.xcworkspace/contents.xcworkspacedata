@@ -2,13 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:TechnicalTestData/TechnicalTestData.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TechnicalTestCore/TechnicalTestCore.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:TechnicalTest.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:../TechnicalTestCore/TechnicalTestCore.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:../TechnicalTestData/TechnicalTestData.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
