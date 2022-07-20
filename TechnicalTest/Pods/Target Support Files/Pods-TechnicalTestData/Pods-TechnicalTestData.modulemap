@@ -1,6 +1,0 @@
-framework module Pods_TechnicalTestData {
-  umbrella header "Pods-TechnicalTestData-umbrella.h"
-
-  export *
-  module * { export * }
-}
