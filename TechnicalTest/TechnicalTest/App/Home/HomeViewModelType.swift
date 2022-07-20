@@ -11,4 +11,5 @@ public protocol HomeViewModelType: ObservableObject {
     var state: HomeViewModelState { get set }
     func searchItem()
     func removeQuery()
+    func setMessage(message: String)
 }

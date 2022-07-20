@@ -9,5 +9,5 @@ import Foundation
 import TechnicalTestCore
 
 struct SearchItemApiResponse: Codable {
-    var results: [ResultItem]
+    var results: [ResultItem]?
 }

@@ -17,7 +17,7 @@ struct ProductListView: View {
         ScrollView {
             HStack{
                 Button(action: removeAction) {
-                    Text("Eliminar busqueda")
+                    Text(NSLocalizedString(LocalizedString.deleteSearch, comment: LocalizedString.empty))
                 }
             }
             Divider()

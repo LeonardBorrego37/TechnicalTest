@@ -11,5 +11,6 @@ import TechnicalTestCore
 final public class HomeViewModelState: ObservableObject {
     @Published var isSearch: Bool = false
     @Published var response: SearchItemModel?
-    @Published var query: String = ""
+    @Published var query: String = LocalizedString.empty
+    @Published var messageError: String = LocalizedString.empty
 }

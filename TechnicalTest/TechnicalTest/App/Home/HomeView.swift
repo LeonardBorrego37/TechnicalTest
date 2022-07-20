@@ -12,6 +12,7 @@ struct HomeView<ViewModelType>: View where ViewModelType: HomeViewModelType {
     
     @ObservedObject var viewModel: ViewModelType = Resolver.resolve()
     @State var isPressing: Bool = false
+    @State var isPresentAlert = false
     
     var body: some View {
         NavigationView {
@@ -26,13 +27,9 @@ struct HomeView<ViewModelType>: View where ViewModelType: HomeViewModelType {
             }
             .blueNavigation
             .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .principal){
-                    Image("meli banner")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                    
-                }
+            .navigationTitle(NSLocalizedString(LocalizedString.home, comment: LocalizedString.empty))
+            .alert(self.viewModel.state.messageError, isPresented: $isPresentAlert) {
+                Button(NSLocalizedString(LocalizedString.continuar, comment: LocalizedString.empty), role: .cancel) { }
             }
         }
     }
@@ -40,7 +37,12 @@ struct HomeView<ViewModelType>: View where ViewModelType: HomeViewModelType {
 
 private extension HomeView {
     func search(){
-        self.viewModel.searchItem()
+        if self.viewModel.state.query.isEmpty {
+            self.isPresentAlert = true
+            self.viewModel.setMessage(message: NSLocalizedString(LocalizedString.searchEmpty, comment: LocalizedString.empty))
+        } else {
+            self.viewModel.searchItem()
+        }
     }
     
     func removeQuery() {

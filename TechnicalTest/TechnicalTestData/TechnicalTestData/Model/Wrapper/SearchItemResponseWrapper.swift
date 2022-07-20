@@ -10,7 +10,7 @@ import TechnicalTestCore
 
 public class SearchItemResponseWrapper {
     static func map(_ response: SearchItemApiResponse) -> SearchItemModel {
-        let products = response.results.map { ProductDetail(id: $0.id,
+        let products = response.results?.map { ProductDetail(id: $0.id,
                                                             site_id: $0.site_id,
                                                             title: $0.title,
                                                             price: $0.price,
@@ -18,6 +18,6 @@ public class SearchItemResponseWrapper {
                                                             image: $0.thumbnail,
                                                             attributes: $0.attributes,
                                                             seller_address: $0.seller_address) }
-        return SearchItemModel(results: products)
+        return SearchItemModel(results: products ?? [])
     }
 }

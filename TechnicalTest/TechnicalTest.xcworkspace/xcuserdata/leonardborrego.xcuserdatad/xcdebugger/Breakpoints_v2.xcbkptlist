@@ -179,5 +179,277 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79AB3FE5-7F24-46BF-BEAE-7F696359F149"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechnicalTest/App/Home/Components/SearchView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D592744E-E122-442C-9955-CB52AA3FF2D4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechnicalTestData/TechnicalTestData/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "request(_:queue:retries:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1D2FC48-AF0E-4ED1-A2FF-A88B6D96597B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechnicalTestData/TechnicalTestData/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "request(_:queue:retries:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04B28A55-CBE6-405A-ACF1-EEE1DB03D1E6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechnicalTestData/TechnicalTestData/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "request(_:queue:retries:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E6CB4D0-34DE-4825-B0AA-FF67E514BB12"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechnicalTest/App/Home/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "searchItem()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20DFB2C7-503A-4D80-A163-A34DA14133EE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechnicalTest/App/Home/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "searchItem()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "096521A9-3B0D-4EF9-8DDA-F15B21A96DA1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechnicalTestData/TechnicalTestData/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "request(_:queue:retries:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7D4FA93-3037-4345-BB32-A179385C3F71"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechnicalTest/App/Home/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "searchItem()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E7D4FA93-3037-4345-BB32-A179385C3F71 - 5dc7acc6ba14a1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;TechnicalTestCore.SearchItemModel&gt;) -&gt; () in TechnicalTest.HomeViewModel.searchItem() -&gt; ()"
+                  moduleName = "TechnicalTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardborrego/Documents/GitHub/TechnicalTest/TechnicalTest/TechnicalTest/App/Home/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "572">
+               </Location>
+               <Location
+                  uuid = "E7D4FA93-3037-4345-BB32-A179385C3F71 - 5dc7acc6ba14a1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;TechnicalTestCore.SearchItemModel&gt;) -&gt; () in TechnicalTest.HomeViewModel.searchItem() -&gt; ()"
+                  moduleName = "TechnicalTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardborrego/Documents/GitHub/TechnicalTest/TechnicalTest/TechnicalTest/App/Home/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "600">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2174EAA7-C9B9-465A-9AD9-E29E4E41E4D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechnicalTest/App/Home/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "setMessage(message:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0DE612C-9A6B-4F4E-AFD8-61A3CD9BB2D6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechnicalTestData/TechnicalTestDataTests/Network/NetworkServiceTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "testNetworkService_WhenMakeRequestSuccessfull_ThenTheResponseShouldBeSuccess()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FB1C842-0986-475F-8038-8BD76B7A6BFF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechnicalTestData/TechnicalTestDataTests/Repository/NetworkServiceMock.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "request(_:queue:retries:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9FB1C842-0986-475F-8038-8BD76B7A6BFF - 49c585177ddf248c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TechnicalTestDataTests.NetworkServiceMock.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: TechnicalTestData.APIRequest&lt;&#x3c4;_0_0&gt;, queue: __C.OS_dispatch_queue, retries: Swift.Int) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, Swift.Error&gt;"
+                  moduleName = "TechnicalTestDataTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardborrego/Documents/GitHub/TechnicalTest/TechnicalTest/TechnicalTestData/TechnicalTestDataTests/Repository/NetworkServiceMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "348">
+               </Location>
+               <Location
+                  uuid = "9FB1C842-0986-475F-8038-8BD76B7A6BFF - 49c585177ddf246f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TechnicalTestDataTests.NetworkServiceMock.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: TechnicalTestData.APIRequest&lt;&#x3c4;_0_0&gt;, queue: __C.OS_dispatch_queue, retries: Swift.Int) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, Swift.Error&gt;"
+                  moduleName = "TechnicalTestDataTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardborrego/Documents/GitHub/TechnicalTest/TechnicalTest/TechnicalTestData/TechnicalTestDataTests/Repository/NetworkServiceMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "348">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9336ED06-94DB-4384-A630-F979E2399D74"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechnicalTestData/TechnicalTestData/Repository/SearchItem/SearchItemRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "searchItem(item:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B7F6D25-2ED1-42A6-9161-582F894C84DF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechnicalTestTests/ViewModel/SearchItemViewModelTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "testSearchItemViewModel_WhenSearchItemReturnError()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

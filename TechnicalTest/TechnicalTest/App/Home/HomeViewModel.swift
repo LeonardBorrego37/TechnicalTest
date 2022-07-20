@@ -6,6 +6,7 @@
 //
 
 import TechnicalTestCore
+import TechnicalTestData
 import Combine
 import SwiftUI
 import os
@@ -28,21 +29,33 @@ extension HomeViewModel: HomeViewModelType {
                 switch completion {
                 case .failure(let error):
                     //TODO: Validar cuando es fallido
-                    print(error)
+                    print(error.localizedDescription)
+                    self.setMessage(message: error.localizedDescription)
                     break
                 case .finished:
-                    //TODO: Validar el finished
+                    print("finished")
                     break
                 }
             } receiveValue: { [weak self] response in
                 self?.objectWillChange.send()
-                self?.state.response = response
+                print(response ?? "")
+                if let response = response, !response.results.isEmpty {
+                    self?.state.response = response
+                } else {
+                    print(NSLocalizedString(LocalizedString.resultEmpty, comment: LocalizedString.empty))
+                    self?.setMessage(message: NSLocalizedString(LocalizedString.resultEmpty, comment: LocalizedString.empty))
+                }
             }.store(in: &suscribers)
     }
     
     func removeQuery() {
         self.objectWillChange.send()
-        self.state.query = ""
+        self.state.query = LocalizedString.empty
         self.state.response = nil
+    }
+    
+    func setMessage(message: String) {
+        self.objectWillChange.send()
+        self.state.messageError = message
     }
 }

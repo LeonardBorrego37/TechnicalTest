@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  TechnicalTest
+
+  Created by leonard Borrego on 19/07/22.
+  
+*/
+"GenericError" = "Ha ocurrído un error, por favor intente más tarde";
+"BusquedaVacia" = "Debes agregar un texto de busqueda";
+"Home" = "Home";
+"OK" = "OK";
+"resulEmpty" = "No se encontraron resultados asociados a tu busqueda";
+"knowAboutProduct" = "Lo que debes saber de este producto:";
+"deleteSearch" = "Eliminar busqueda";
+"homeMessage" = "Ey! anímate y busca algo para tí";
+"searchButton" = "Buscar";
+"image" = "meli3";

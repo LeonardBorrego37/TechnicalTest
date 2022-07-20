@@ -44,28 +44,28 @@ struct ItemDetail: View {
                 }
             }
             
-            Text("Lo que debes saber de este producto: ")
+            Text(NSLocalizedString(LocalizedString.knowAboutProduct, comment: LocalizedString.empty))
             ForEach(self.item.attributes, id: \.name) { attribute in
                 HStack{
                     Text(attribute.name + ":")
                         .fontWeight(.bold)
-                    Text(attribute.value_name ?? "")
+                    Text(attribute.value_name ?? LocalizedString.empty)
                 }
             }
         }.padding()
             .blueNavigation
-            .navigationTitle(Text("Product Detail"))
+            .navigationTitle(Text("Detalle del producto"))
     }
 }
 
 struct ItemDetail_Previews: PreviewProvider {
     static var previews: some View {
-        ItemDetail(item: ProductDetail(id: "",
-                                       site_id: "",
-                                       title: "",
+        ItemDetail(item: ProductDetail(id: LocalizedString.empty,
+                                       site_id: LocalizedString.empty,
+                                       title: LocalizedString.empty,
                                        price: 9000,
                                        sold_quantity: 0,
-                                       image: "",
+                                       image: LocalizedString.empty,
                                        attributes: [],
                                        seller_address: SellerAddress(country: Country(id: "", name: ""), city: City(id: "", name: ""), state: States(id: "", name: ""))))
     }

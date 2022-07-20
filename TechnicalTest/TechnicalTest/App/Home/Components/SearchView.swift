@@ -14,20 +14,23 @@ struct SearchView: View {
     var searchAction: SearchAction = {}
     
     var body: some View {
+        Image(NSLocalizedString(LocalizedString.image, comment: LocalizedString.empty))
+            .frame(width: 100, height: 100)
+        Spacer()
         ZStack {
             if item.isEmpty {
-                Text("Ey! anímate y busca algo para tí")
+                Text(NSLocalizedString(LocalizedString.homeMessage, comment: LocalizedString.empty))
                     .foregroundColor(Color.gray)
                     .fontWeight(.bold)
             }
             
-            TextField("", text: $item)
+            TextField(LocalizedString.empty, text: $item)
         }.padding([.leading, .trailing], 20)
         Divider()
             .padding([.leading, .trailing], 20)
         
         Button(action: searchAction , label: {
-            Text("Buscar")
+            Text(NSLocalizedString(LocalizedString.searchButton, comment: LocalizedString.empty))
                 .fontWeight(.bold)
                 .foregroundColor(.blue)
                 .frame(maxWidth: .infinity, alignment: .center)
