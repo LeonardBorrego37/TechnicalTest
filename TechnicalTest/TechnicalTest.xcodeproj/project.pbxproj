@@ -22,6 +22,10 @@
 		C9D56F7428836F1E00BD3E44 /* ItemCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D56F7328836F1E00BD3E44 /* ItemCellView.swift */; };
 		C9DF17BD28886A7300473D3B /* SearchItemViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DF17BC28886A7300473D3B /* SearchItemViewModelTest.swift */; };
 		C9DF17BF28886A9600473D3B /* SearchItemInteractorStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DF17BE28886A9600473D3B /* SearchItemInteractorStub.swift */; };
+		C9E21C6B28897A0F00A5473E /* OrientationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E21C6A28897A0F00A5473E /* OrientationModifier.swift */; };
+		C9E21C6D28897CEF00A5473E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E21C6C28897CEF00A5473E /* WelcomeView.swift */; };
+		C9E21C702889847600A5473E /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E21C6F2889847600A5473E /* SplashScreenView.swift */; };
+		C9E21C73288985FF00A5473E /* SwiftfulLoadingIndicators in Frameworks */ = {isa = PBXBuildFile; productRef = C9E21C72288985FF00A5473E /* SwiftfulLoadingIndicators */; };
 		C9F1418E287437BD0080B5E2 /* TechnicalTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F1418D287437BD0080B5E2 /* TechnicalTestApp.swift */; };
 		C9F14192287437BE0080B5E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F14191287437BE0080B5E2 /* Assets.xcassets */; };
 		C9F14195287437BE0080B5E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F14194287437BE0080B5E2 /* Preview Assets.xcassets */; };
@@ -82,6 +86,9 @@
 		C9D56F7328836F1E00BD3E44 /* ItemCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCellView.swift; sourceTree = "<group>"; };
 		C9DF17BC28886A7300473D3B /* SearchItemViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemViewModelTest.swift; sourceTree = "<group>"; };
 		C9DF17BE28886A9600473D3B /* SearchItemInteractorStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemInteractorStub.swift; sourceTree = "<group>"; };
+		C9E21C6A28897A0F00A5473E /* OrientationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationModifier.swift; sourceTree = "<group>"; };
+		C9E21C6C28897CEF00A5473E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C9E21C6F2889847600A5473E /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		C9F1418A287437BD0080B5E2 /* TechnicalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechnicalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F1418D287437BD0080B5E2 /* TechnicalTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicalTestApp.swift; sourceTree = "<group>"; };
 		C9F14191287437BE0080B5E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,6 +112,7 @@
 				C91F48B32884DCB400DA3362 /* Kingfisher in Frameworks */,
 				C9F1420F28743A4D0080B5E2 /* TechnicalTestData.framework in Frameworks */,
 				C9F1420D28743A4D0080B5E2 /* TechnicalTestCore.framework in Frameworks */,
+				C9E21C73288985FF00A5473E /* SwiftfulLoadingIndicators in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +162,7 @@
 			children = (
 				C91F48A128849D4300DA3362 /* ProductListView.swift */,
 				C91F48AC2884C42700DA3362 /* SearchView.swift */,
+				C9E21C6C28897CEF00A5473E /* WelcomeView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -162,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				C91F48AF2884D92400DA3362 /* NavigationModifier.swift */,
+				C9E21C6A28897A0F00A5473E /* OrientationModifier.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -177,6 +187,7 @@
 		C9380FA228775BD300EB432B /* App */ = {
 			isa = PBXGroup;
 			children = (
+				C9E21C6E2889846400A5473E /* Splash */,
 				C91F48AE2884D90F00DA3362 /* Modifiers */,
 				C9D56F7028836EF900BD3E44 /* Detail */,
 				C9380FA328775CED00EB432B /* Home */,
@@ -221,6 +232,14 @@
 				C9DF17BE28886A9600473D3B /* SearchItemInteractorStub.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C9E21C6E2889846400A5473E /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				C9E21C6F2889847600A5473E /* SplashScreenView.swift */,
+			);
+			path = Splash;
 			sourceTree = "<group>";
 		};
 		C9F14181287437BD0080B5E2 = {
@@ -305,6 +324,7 @@
 			name = TechnicalTest;
 			packageProductDependencies = (
 				C91F48B22884DCB400DA3362 /* Kingfisher */,
+				C9E21C72288985FF00A5473E /* SwiftfulLoadingIndicators */,
 			);
 			productName = TechnicalTest;
 			productReference = C9F1418A287437BD0080B5E2 /* TechnicalTest.app */;
@@ -381,6 +401,7 @@
 			mainGroup = C9F14181287437BD0080B5E2;
 			packageReferences = (
 				C91F48B12884DCB400DA3362 /* XCRemoteSwiftPackageReference "Kingfisher.git" */,
+				C9E21C71288985FF00A5473E /* XCRemoteSwiftPackageReference "SwiftfulLoadingIndicators.git" */,
 			);
 			productRefGroup = C9F1418B287437BD0080B5E2 /* Products */;
 			projectDirPath = "";
@@ -432,10 +453,13 @@
 				C9D56F6928833F8900BD3E44 /* HomeView.swift in Sources */,
 				C9F1419A287437BE0080B5E2 /* TechnicalTest.xcdatamodeld in Sources */,
 				C91F48A228849D4300DA3362 /* ProductListView.swift in Sources */,
+				C9E21C702889847600A5473E /* SplashScreenView.swift in Sources */,
 				C9D56F6D2883510B00BD3E44 /* HomeViewModelType.swift in Sources */,
 				C9D56F7228836F0D00BD3E44 /* ItemDetail.swift in Sources */,
 				C9D56F6B2883508300BD3E44 /* HomeViewModel.swift in Sources */,
+				C9E21C6D28897CEF00A5473E /* WelcomeView.swift in Sources */,
 				C9F1418E287437BD0080B5E2 /* TechnicalTestApp.swift in Sources */,
+				C9E21C6B28897A0F00A5473E /* OrientationModifier.swift in Sources */,
 				C91F48B02884D92400DA3362 /* NavigationModifier.swift in Sources */,
 				C91F48AD2884C42700DA3362 /* SearchView.swift in Sources */,
 			);
@@ -618,6 +642,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -648,6 +673,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -789,6 +815,14 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		C9E21C71288985FF00A5473E /* XCRemoteSwiftPackageReference "SwiftfulLoadingIndicators.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulLoadingIndicators.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.4;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -796,6 +830,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C91F48B12884DCB400DA3362 /* XCRemoteSwiftPackageReference "Kingfisher.git" */;
 			productName = Kingfisher;
+		};
+		C9E21C72288985FF00A5473E /* SwiftfulLoadingIndicators */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9E21C71288985FF00A5473E /* XCRemoteSwiftPackageReference "SwiftfulLoadingIndicators.git" */;
+			productName = SwiftfulLoadingIndicators;
 		};
 /* End XCSwiftPackageProductDependency section */
 

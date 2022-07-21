@@ -5,6 +5,8 @@
 //  Created by leonard Borrego on 17/07/22.
 //
 
+/// la extension de View para el navigationView para poder expandir el navigationBar y hacerlo de forma custom.
+/// 
 import Foundation
 import SwiftUI
 
@@ -13,7 +15,7 @@ extension View {
         self.modifier(NavigationBarModifier(backgroundColor: backgroundColor, textColor: textColor))
     }
     
-    var blueNavigation: some View {
+    var customNavigation: some View {
         self.navigationBarColor(UIColor(named: "Background")!, textColor: UIColor.black)
     }
 }

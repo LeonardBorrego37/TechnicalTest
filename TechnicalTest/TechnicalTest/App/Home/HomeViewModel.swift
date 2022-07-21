@@ -22,6 +22,7 @@ final class HomeViewModel {
 }
 
 extension HomeViewModel: HomeViewModelType {
+    /// la funcion searchItem es la funcion que permite conectar el interactor con el viewModel para consumir el servicio.
     func searchItem() {
         self.interactor.execute(params: self.state.query)
             .receive(on: RunLoop.main)
@@ -48,12 +49,14 @@ extension HomeViewModel: HomeViewModelType {
             }.store(in: &suscribers)
     }
     
+    /// la funcion removeQuery es la encargada de eliminar el campo de busqueda y eliminar los valores de respuesta que se tengan en caso de haber realizado una consulta anteriormente,
     func removeQuery() {
         self.objectWillChange.send()
         self.state.query = LocalizedString.empty
         self.state.response = nil
     }
     
+    /// La funcion setMessage es la encargada de colocar un mensaje en el alert en caso de haber un error
     func setMessage(message: String) {
         self.objectWillChange.send()
         self.state.messageError = message

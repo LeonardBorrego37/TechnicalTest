@@ -5,6 +5,8 @@
 //  Created by leonard Borrego on 15/07/22.
 //
 
+/// La clase SearchItemRepository es la encargada de construir la estructura request para el consumo del servicio para la busqueda de un articulo en la api de mercado libre.
+
 import Combine
 import TechnicalTestCore
 

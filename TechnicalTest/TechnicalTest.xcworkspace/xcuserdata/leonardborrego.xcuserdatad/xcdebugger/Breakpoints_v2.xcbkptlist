@@ -182,22 +182,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "79AB3FE5-7F24-46BF-BEAE-7F696359F149"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TechnicalTest/App/Home/Components/SearchView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "D592744E-E122-442C-9955-CB52AA3FF2D4"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -205,8 +189,8 @@
             filePath = "TechnicalTestData/TechnicalTestData/Network/NetworkService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "request(_:queue:retries:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -221,8 +205,8 @@
             filePath = "TechnicalTestData/TechnicalTestData/Network/NetworkService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "request(_:queue:retries:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -237,8 +221,8 @@
             filePath = "TechnicalTestData/TechnicalTestData/Network/NetworkService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
             landmarkName = "request(_:queue:retries:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -253,8 +237,8 @@
             filePath = "TechnicalTest/App/Home/HomeViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "searchItem()"
             landmarkType = "7">
          </BreakpointContent>
@@ -269,8 +253,8 @@
             filePath = "TechnicalTest/App/Home/HomeViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "searchItem()"
             landmarkType = "7">
          </BreakpointContent>
@@ -285,8 +269,8 @@
             filePath = "TechnicalTestData/TechnicalTestData/Network/NetworkService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
             landmarkName = "request(_:queue:retries:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -301,13 +285,13 @@
             filePath = "TechnicalTest/App/Home/HomeViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "searchItem()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "E7D4FA93-3037-4345-BB32-A179385C3F71 - 5dc7acc6ba14a1e"
+                  uuid = "E7D4FA93-3037-4345-BB32-A179385C3F71 - 5dc7acc6ba14a3d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -317,12 +301,12 @@
                   urlString = "file:///Users/leonardborrego/Documents/GitHub/TechnicalTest/TechnicalTest/TechnicalTest/App/Home/HomeViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42"
-                  offsetFromSymbolStart = "572">
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "528">
                </Location>
                <Location
-                  uuid = "E7D4FA93-3037-4345-BB32-A179385C3F71 - 5dc7acc6ba14a1e"
+                  uuid = "E7D4FA93-3037-4345-BB32-A179385C3F71 - 5dc7acc6ba14a3d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -332,27 +316,11 @@
                   urlString = "file:///Users/leonardborrego/Documents/GitHub/TechnicalTest/TechnicalTest/TechnicalTest/App/Home/HomeViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42"
-                  offsetFromSymbolStart = "600">
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "556">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2174EAA7-C9B9-465A-9AD9-E29E4E41E4D8"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TechnicalTest/App/Home/HomeViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "setMessage(message:)"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -429,8 +397,8 @@
             filePath = "TechnicalTestData/TechnicalTestData/Repository/SearchItem/SearchItemRepository.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "searchItem(item:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -445,9 +413,9 @@
             filePath = "TechnicalTestTests/ViewModel/SearchItemViewModelTest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
-            landmarkName = "testSearchItemViewModel_WhenSearchItemReturnError()"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "testSearchItemViewModel_WhenSearchItemReturnSuccess()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

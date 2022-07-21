@@ -4,10 +4,12 @@
 //
 //
 
+/// la clase NetworkService es la encargada del consumo de la Api, es una clase que tiene una funcion request con un generico para el tipo de respuesta.
+
 import Foundation
 import Combine
 import Alamofire
-import os
+
 public class NetworkService {
     private var urlSession: URLSession
     private var baseURL: URL?

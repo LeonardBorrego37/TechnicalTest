@@ -15,6 +15,23 @@ final class SearchItemViewModelTest: XCTestCase {
     
     var searchItemInteractorStub: AnyInteractor<String, SearchItemModel?>!
     private var sut: HomeViewModel!
+    private var itemModel = SearchItemModel(
+        results: [ProductDetail(id: "",
+                                site_id: "",
+                                title: "",
+                                price: 0,
+                                sold_quantity: 0,
+                                image: "",
+                                attributes: [AttributeItem(name: "",
+                                                           value_name: "")],
+                                seller_address: SellerAddress(
+                                    country: Country(id: "",
+                                                     name: ""),
+                                    city: City(id: "",
+                                               name: ""),
+                                    state: States(id: "",
+                                                  name: ""))
+                               )])
     
     override func setUp() {
         super.setUp()
@@ -31,23 +48,7 @@ final class SearchItemViewModelTest: XCTestCase {
     func testSearchItemViewModel_WhenSearchItemReturnSuccess() {
         let expectation = XCTestExpectation(description: "Search items")
         
-        SearchItemInteractorStub.response = SearchItemModel(
-            results: [ProductDetail(id: "",
-                                    site_id: "",
-                                    title: "",
-                                    price: 0,
-                                    sold_quantity: 0,
-                                    image: "",
-                                    attributes: [AttributeItem(name: "",
-                                                               value_name: "")],
-                                    seller_address: SellerAddress(
-                                        country: Country(id: "",
-                                                         name: ""),
-                                        city: City(id: "",
-                                                   name: ""),
-                                        state: States(id: "",
-                                                      name: ""))
-                                   )])
+        SearchItemInteractorStub.response = itemModel
         
         sut.searchItem()
         
@@ -78,23 +79,7 @@ final class SearchItemViewModelTest: XCTestCase {
     
     func testSearchItemViewModel_WhenRemoveQuery() {
         
-        sut.state.response? = SearchItemModel(
-            results: [ProductDetail(id: "",
-                                    site_id: "",
-                                    title: "",
-                                    price: 0,
-                                    sold_quantity: 0,
-                                    image: "",
-                                    attributes: [AttributeItem(name: "",
-                                                               value_name: "")],
-                                    seller_address: SellerAddress(
-                                        country: Country(id: "",
-                                                         name: ""),
-                                        city: City(id: "",
-                                                   name: ""),
-                                        state: States(id: "",
-                                                      name: ""))
-                                   )])
+        sut.state.response? = itemModel
         
         sut.removeQuery()
         

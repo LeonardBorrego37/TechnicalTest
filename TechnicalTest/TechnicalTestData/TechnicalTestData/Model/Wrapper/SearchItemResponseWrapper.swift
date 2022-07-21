@@ -5,6 +5,8 @@
 //  Created by leonard Borrego on 15/07/22.
 //
 
+/// Con la clase SearchItemResponseWrapper se hace un maper entre el objeto response del API y el modelo que sirve para visualizar los datos en la vista. Se realiza de esta manera para que en caso de haber un cambio en la capa datos no se vea afectada la capa app. 
+
 import Foundation
 import TechnicalTestCore
 

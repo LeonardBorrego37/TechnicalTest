@@ -25,12 +25,14 @@ struct HomeView<ViewModelType>: View where ViewModelType: HomeViewModelType {
                 }
                 Spacer()
             }
-            .blueNavigation
+            .customNavigation
             .navigationBarTitleDisplayMode(.inline)
+            .navigationViewStyle(StackNavigationViewStyle())
             .navigationTitle(NSLocalizedString(LocalizedString.home, comment: LocalizedString.empty))
             .alert(self.viewModel.state.messageError, isPresented: $isPresentAlert) {
                 Button(NSLocalizedString(LocalizedString.continuar, comment: LocalizedString.empty), role: .cancel) { }
             }
+            WelcomeView()
         }
     }
 }

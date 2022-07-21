@@ -10,8 +10,7 @@ struct TechnicalTestApp: App {
 
     var body: some Scene {
         WindowGroup {
-            let view = Resolver.resolve(HomeView<HomeViewModel>.self)
-            view
+            SplashScreenView()
         }
     }
 }
